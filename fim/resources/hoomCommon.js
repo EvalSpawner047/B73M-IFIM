@@ -5,7 +5,7 @@ if (/\((iPad|iPhone);.*Version\/([^.]+)([^ ]*)/.test(browserUa)) {msd.userOpt.br
  function viewExtRef(erman, targetid, linkobj, calledby) {
     if (erman === 'AMM' && targetid) {
         var chapter = targetid.split('-')[0];
-        var pdfPath = 'https://your-username.github.io/B73M-IFIM/fim/amm/Chapter_' + chapter + '.pdf';
+        var pdfPath = 'https://evalspawner047.github.io/B73M-IFIM/fim/amm/Chapter_' + chapter + '.pdf';
         
         console.log("Navigating to PDF: " + pdfPath);
         window.location.href = pdfPath;
