@@ -7,7 +7,7 @@ if (/\((iPad|iPhone);.*Version\/([^.]+)([^ ]*)/.test(browserUa)) {msd.userOpt.br
         var chapter = targetid.split('-')[0];
         
         // Replace 'your-username' with your actual GitHub username
-        var pdfPath = 'https://evalspawner047.github.io/B73M-IFIM/fim/amm/Chapter_' + chapter + '.pdf';
+        var pdfPath = 'https://evalspawner47.github.io/B73M-IFIM/fim/amm/Chapter_' + chapter + '.pdf';
         
         console.log("Opening PDF at: " + pdfPath);
         window.open(pdfPath, '_blank');
